@@ -25,7 +25,6 @@ public class Result {
             eng=sc.nextInt();
             System.out.println("Enter the number of for roll "+ob.roll+" geo:\t");
             geo=sc.nextInt();
-            Result r=new Result(i);
             int avg=(math+eng+geo)/3;
             System.out.println("Student "+ob.roll+" marks is = "+avg);
         }
