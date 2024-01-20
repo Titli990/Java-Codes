@@ -9,7 +9,7 @@ public class Temperature {
         return ((F * 9) / 5) + 32;
     }
     static float converter2(float C){
-        return ((C - 32) / 9) * 5;
+        return ((C - 32) * 5) / 9;
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
