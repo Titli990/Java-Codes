@@ -7,9 +7,9 @@ public class Count {
 //        System.out.println( noOfstudent);
     }
     public static void main(String[] args) {
-        for(int i=1;i<=20;i++) {
-            Count c1 = new Count();
-        }
+        Count ob=new Count();
+        Count ob1=new Count();
+        Count ob2=new Count();
         System.out.println( noOfstudent);
     }
 }
