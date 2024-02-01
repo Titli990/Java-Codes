@@ -22,7 +22,7 @@ public class Sentence {
                     (str.charAt(i)=='a')||(str.charAt(i)=='e')||(str.charAt(i)=='i')||(str.charAt(i)=='o')||(str.charAt(i)=='u')){
                 v++;
             }
-            else if ((str.charAt(i) >= 'A' && str.charAt(i) < 'Z') || (str.charAt(i) > 'a' && str.charAt(i) < 'z')){
+            else if ((str.charAt(i) >= 'A' && str.charAt(i) <= 'Z') || (str.charAt(i) >= 'a' && str.charAt(i) <= 'z')){
                 c++;
             }
         }
